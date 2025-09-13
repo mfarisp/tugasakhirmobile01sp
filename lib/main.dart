@@ -9,7 +9,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
   options: DefaultFirebaseOptions.currentPlatform,
-); // Inisialisasi Firebase
+); 
   runApp(const MyApp());
 }
 
@@ -32,5 +32,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
