@@ -26,10 +26,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: '3D Asset Store',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const HomeScreen(), // layar pertama adalah login
+        home: const HomeScreen(), 
         debugShowCheckedModeBanner: false,
       ),
     );
   }
 }
+
 
